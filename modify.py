@@ -1,6 +1,6 @@
 import os 
 import sys
-p='./data_test/'
+p='./'
 if len(sys.argv)>1:
     p=sys.argv[1]
     
