@@ -12,6 +12,8 @@ for path,dir_list,file_list in g:
     if i==0:
         try:
             os.mkdir(p+'convert')
+        except:
+            pass
     for dir_name in file_list:
         if not dir_name.startswith('.'):
             with open(os.path.join(path, dir_name),'r',encoding='utf-8') as f:
